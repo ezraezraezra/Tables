@@ -1,0 +1,94 @@
+/*
+ * Project:     Tables
+ * Description: Education web mobile app that lets user practice his/her
+ *              multiplication table skills.
+ * Website:     http://ezraezraezra.com/class/woaa/class5/tables
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        October 2011 (Originally developed February 2011)
+ * 
+ */
+@CHARSET "UTF-8";
+@font-face {
+	font-family: BebasNeue;
+	src: url('BebasNeue-webfont.ttf');
+}
+#answer {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+body {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	font-family: BebasNeue;
+}
+#container {
+	position: relative;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#math_container {
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	width: 98%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-size: 48px;
+}
+#score_container {
+	position: relative;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+#score_left {
+	position: relative;
+	float: left;
+	width: 45px;
+	background-color: green;
+	border-radius: 10px;
+}
+#score_right {
+	position: relative;
+	float: right;
+	width: 45px;
+	background-color: red;
+	border-radius: 10px;
+}
+#submit {
+	position: relative;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100px;
+	border-radius: 25px;
+	background-color: green;
+	font-size: 28px;
+	cursor: pointer;
+}
+#title {
+	position: relative;
+	width: 128px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: yellow;
+	border-radius: 5px;
+	font-size: 24px;
+	color: #333;
+}
